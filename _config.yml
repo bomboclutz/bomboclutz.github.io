@@ -17,3 +17,8 @@ github_username:  bomboclutz
 
 # Build settings
 markdown: kramdown
+
+collections:
+  articles:
+    output: true
+    permalink: /articles/:path/
