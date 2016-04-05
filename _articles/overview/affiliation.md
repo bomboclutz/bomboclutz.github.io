@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Affiliation
+category: Cat2
 ---
 I’m hedging my bets on a little bit of honesty, and a little bit of kickback from the community on this one. Amazon offer something called the Affiliates scheme, which means if you click on my link to Amazon, they recognise that I sent you there. For a small period of time, I’ll get a little kickback on anything you buy on Amazon; unless you click on another person's Affiliate link as that will then override mine. 
 

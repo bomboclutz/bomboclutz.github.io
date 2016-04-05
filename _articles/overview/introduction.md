@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Introduction!
+title: Introduction
+category: Cat1
 ---
 Whilst many take it for granted, computers are awesome. How far this industry has progressed over a couple of decades is mind-bending. We’ve seen the rise and fall of industry giants, products go from nothing to a state of ubiquity and anyone old enough to be reading this will have at least lived through some service or product that has revolutionised the industry. Not to mention things that could potentially alter our world in a few short years are right in front of our faces, literally. *That was a terrible attempt at a Virtual Reality pun.*
 

@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Guide to PC
+title: Everything PC - Beginners Handbook
 email: glog2002@hotmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Want to get a grip on the world of PCs? Then this is place for you.
@@ -21,4 +21,4 @@ markdown: kramdown
 collections:
   articles:
     output: true
-    permalink: /articles/:path/
+    permalink: /:path/

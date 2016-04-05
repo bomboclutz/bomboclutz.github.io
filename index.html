@@ -3,21 +3,56 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+  <ul>
+    <li>Overview</li>
+    <ul>
+      <li><a href="/overview/introduction/">Introduction</a></li>
+      <li><a href="/overview/affiliation/">About Amazon Affiliation</a></li>
+      <li>Why PC? What can it offer?</li>
+      <li>A Discussion on Cost</li>
+    </ul>
+    <li>Understanding Computer Components</li>
+    <ul>
+      <li><a href="/components/motherboard/">The Motherboard</a></li>
+      <li><a href="/components/cpu/">CPU <i>(Central Processing Unit)</i></a></li>
+      <li><a href="/components/ram/">RAM <i>(Random Access Memory)</i></a></li>
+      <li><a href="/components/gpu/">GPU <i>(Graphics Processing Unit)</i></a></li>
+      <li><a href="/components/powersupplies/">Power Supplies</a></li>
+      <li><a href="/components/storage/">Storage</a></li>     
+    </ul>
+    <li>Buyers Guide</li>
+    <ul>
+      <li>Buying a Computer</li>
+        <li>Desktop</li>
+        <li>Compact PCs</li>
+        <li>Laptops</li>
+        <li>Servers</li>
+      <li>Building a Computer</li>
+      <ul>
+        <li>Considerations</li>
+        <li>Choosing Components</li>
+        <ul>
+          <li>Cases</li>
+          <li>Motherboards</li>
+          <li>CPU</li>
+          <li>RAM</li>
+          <li>GPU</li>
+          <li>Power Supplies</li>
+          <li>Storage</li>
+          <li>Cooling</li>
+          <li>Fans</li>
+          <li>Optical Drives</li>
+        </ul>
+        <li>Refinement</li>
+      </ul>
+    </ul>
+    <li>Assembly Guide</li>
+    <ul>
+      <li>Prerequisits and Tips</li>
+      <li>Precautions</li>
+      <li>First Steps</li>
+      <li>Assembly</li>
+    </ul>
+    <li>Peripherals</li>
+    <li><a href="/jargon/">Jargon - The Cheat Sheet</a></li>
 </div>
